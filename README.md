@@ -74,7 +74,4 @@ Aplikasi akan otomatis terbuka di *browser* bawaan Anda pada alamat `http://loca
 - **Image Processing:** `Pillow (PIL)`
 - **Data Visualization:** `Plotly Graph Objects`
 
-## 📝 Referensi Akademik
-Dikembangkan untuk memenuhi kurikulum akademik mata kuliah Sistem Multimedia.
 
-<p align="center">Dibuat dengan ❤️ untuk Kesempurnaan Teknikal</p>
