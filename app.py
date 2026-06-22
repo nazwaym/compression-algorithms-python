@@ -795,13 +795,13 @@ def main():
     <div class="metric-card" style="margin-bottom: 1rem;">
         <div style="font-size: 1.1rem; font-weight: 700; color: #0f172a; margin-bottom: 0.5rem;">Ekspor Data Analisis Kuantitatif</div>
         <div style="font-size: 0.95rem; color: #475569; margin-bottom: 1.5rem; line-height: 1.5;">
-            Unduh seluruh matriks performa kompresi (Ukuran Awal, Ukuran Akhir, Rasio, Penghematan, dan Waktu) ke dalam format <b>CSV</b>. Fitur ini mempermudah Anda untuk memindahkan data langsung ke Excel atau Google Sheets untuk kebutuhan laporan tugas akhir.
+            Unduh seluruh matriks performa kompresi (Ukuran Awal, Ukuran Akhir, Rasio, Penghematan, dan Waktu) ke dalam format <b>CSV</b>. Fitur ini mempermudah Anda untuk memindahkan data langsung ke Excel atau perangkat lunak spreadsheet lainnya untuk kebutuhan analisis komprehensif.
         </div>
     </div>
     ''', unsafe_allow_html=True)
     st.download_button("Unduh Laporan CSV", csv_data, "Laporan_Kompresi_SISMUL.csv", "text/csv", use_container_width=True)
 
-    st.markdown('<div class="footer">Sistem Analisis Algoritma Kompresi Gambar Lossless • Mata Kuliah Sistem Multimedia</div>', unsafe_allow_html=True)
+    st.markdown('<div class="footer">Lossless Image Compression Analytics Dashboard</div>', unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
